@@ -22,6 +22,7 @@ class LoginPage{
     async clickOnLoginBtn(){
         await t
         .click(this.loginBtn)
+        .wait(3000)
     }
 }
 export default new LoginPage();
